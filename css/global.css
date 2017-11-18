@@ -1,0 +1,95 @@
+/* Updated 8/17/2014 */
+
+ /* TODO */
+ 
+ /* =======================================================
+  # Website Global Styles
+======================================================= */
+body {color:#222; font:1em/1.4 Arial, Helvetica, sans-serif;}
+
+/* Headings  */
+h1 {font-size:2em;}
+h2 {font-size:1.6em;}
+h3 {font-size:1.4em;}
+h4 {font-size:1.2em;}
+
+h1 a {}
+h2 a {}
+h3 a {}
+h4 a {}
+
+p {font-size:1em; margin-bottom:1.3em;}
+
+/* list */
+dl {}
+ol {}
+ul {}
+li {}
+
+/* #Links
+================================================== */
+a:link, a:visited {color:#333;}
+a:hover, a:active, a:focus {color:#000;}
+
+a:focus {outline:thin dotted;}
+
+/* #Form Elements */
+fieldset {margin:0 2px; padding:0.35em 0.625em 0.75em;}
+input, select, textarea {border:1px solid #ccc; background-color:inherit;}
+textarea {resize:vertical;}
+
+
+ /* =======================================================
+  #Helper Classes
+======================================================= */
+.float-left {float:left;}
+.float-right {float:right;}
+.center {text-align:center;}
+
+.primary-color {color:#0071AE;}
+.secondary-color {color:#4D4D4D;}
+
+.small-title {font-size:14px;}
+.large-text {font-size:15px;}
+.small-text {font-size:11px;}
+
+.img-responsive {display:block; max-width:100%; height:auto;}
+/* group (Clearfix) */
+.group:before, .container:before,
+.group:after,  .container:after {content:" "; display:table;}
+.group:after,  .container:after {clear:both;}
+
+/* Hide visually and from screen readers */
+.hidden {display:none !important; visibility:hidden;}
+
+/* Hide only visually, but have it available for screen readers */
+.element-invisible {
+overflow:hidden; position:absolute; clip:rect(0 0 0 0);
+width:1px; height:1px; margin:-1px; padding:0; border:0;}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable
+* when navigated to via the keyboard */
+.element-invisible.element-focusable:active,
+.element-invisible.element-focusable:focus {
+overflow:visible; position:static; clip:auto;
+width:auto; height:auto; margin:0;}
+
+
+ /* =======================================================
+  #Media Queries
+======================================================= */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}

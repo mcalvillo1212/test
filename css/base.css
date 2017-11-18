@@ -1,0 +1,129 @@
+/* 
+    Author: miguel@mcalvillo
+    Version: 0.8
+    Updated: 8/17/2014
+	
+    Description: Base CSS Styles
+*/
+
+/* =======================================================
+  #Base Styles
+======================================================= */
+html {font-size:100%; font-family:sans-serif;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+
+body {margin:0; background:#fff;}
+
+/* #Links
+================================================== */
+a {text-decoration:none;}
+a:hover, a:active, a:focus {background-color:transparent;}
+a:focus {outline:#999 thin dotted;}
+a:active, a:hover {outline:0;}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6, p {margin:0;}
+ul, li, dl, dt, dd {margin:0; padding:0; list-style:none;}
+b, strong {font-weight:bold;}
+abbr[title] {border-bottom:1px dotted;}
+q {quotes: "\201C" "\201D" "\2018" "\2019";}
+
+img {border:none; vertical-align:middle;}
+figure {margin:0;}
+
+/* #Tables
+================================================== */
+table {border-spacing:0; border-collapse:collapse; empty-cells:show;}
+thead, th {vertical-align:bottom;}
+td, th {overflow:visible; margin:0; padding:0; font-size:inherit;}
+
+/* HTML5 display definitions
+================================================== */
+header, nav, section, main, article, details,
+summary, aside, figure, figcaption, footer {display:block;}
+
+/* #Misc Styles
+================================================== */
+::-moz-selection {background:#b3d4fc; text-shadow:none;}
+::selection {     background:#b3d4fc; text-shadow:none;}
+
+/* #Form Elements
+================================================== */
+form {margin:0;}
+fieldset {margin:0; padding:0; border:0;}
+
+legend {display:block; border:0; padding:0;}
+
+button, input, optgroup, select, textarea {
+margin:0; vertical-align:baseline;
+color:inherit; font:inherit;
+font-size:100%; font-family:inherit;}
+
+button {overflow:visible;}
+
+button, input {line-height:normal;}
+button, select {text-transform:none;}
+
+textarea {overflow:auto; vertical-align:top; resize:none;}
+
+select {background-color:white;}
+select[multiple] {height:auto;}
+
+optgroup {font-weight:bold;}
+
+button,
+html input[type="button"],
+     input[type="reset"],
+     input[type="submit"] {-webkit-appearance:button; cursor:pointer;}
+
+html input[disabled],
+    button[disabled] {cursor:default;}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {border:0; padding:0;}
+
+input {line-height:normal;}
+input::-moz-focus-inner {padding:0; border:0;}
+
+input[type="checkbox"],
+input[type="radio"] {box-sizing:border-box; padding:0;}
+
+input[type="search"] {
+-webkit-appearance:textfield;
+
+-webkit-box-sizing:content-box;
+   -moz-box-sizing:content-box;
+        box-sizing:content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {-webkit-appearance:none;}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select, textarea {width:100%;
+-webkit-box-sizing:border-box;
+-moz-box-sizing   :border-box;
+box-sizing        :border-box;}
+
+/* #Extra Styles
+================================================== */
+sub, sup {position:relative; font-size:75%; line-height:0; vertical-align:baseline;}
+sup {top:-0.5em;}
+sub {bottom:-0.25em;}
+
+small {font-size:80%;}
+mark {background:#ff0; color:#000;}
+pre {overflow:auto;}
+dfn {font-style:italic;}
+code, kbd, pre, samp {font-size: 1em; font-family: monospace;}
+
+hr {height:0; -moz-box-sizing:content-box; box-sizing:content-box;}
+
+audio, canvas, svg, progress, video {display:inline-block; vertical-align:middle;}
+audio:not([controls]) {display:none;height:0;}
+[hidden], template {display:none;}
+svg:not(:root) {overflow:hidden;}
